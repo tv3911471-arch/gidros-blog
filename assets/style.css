@@ -34,6 +34,7 @@ img{max-width:100%; height:auto}
 .meta{color:var(--muted); font-size:14px; margin-top:-.3em}
 
 .article{padding-bottom:24px}
+.cover{width:100%; height:auto; border-radius:10px; margin:6px 0 18px; display:block}
 .home-intro{padding:22px 0 6px}
 .cluster{margin:22px 0}
 .cluster h2{margin-bottom:.3em}

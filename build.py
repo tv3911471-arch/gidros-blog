@@ -18,6 +18,8 @@ import markdown
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from covers import make_cover
+
 ROOT = Path(__file__).parent
 CONTENT = ROOT / "content"
 TPL = ROOT / "templates"
@@ -117,6 +119,7 @@ def main():
             "updated": str(meta.get("updated") or "").strip(),
             "keywords": meta.get("keywords") or [],
             "query": str(meta.get("query") or meta["title"]).strip(),
+            "cover_title": str(meta.get("cover_title") or meta["title"]).strip(),
             "description": make_description(meta, body_html),
             "body": body_html,
             "source": path.name,
@@ -134,6 +137,11 @@ def main():
     OUT.mkdir()
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     shutil.copytree(ASSETS, OUT / "assets")
+
+    # обложки
+    for a in articles:
+        make_cover(a["slug"], a["cover_title"], a["cluster"],
+                   site["phone_display"], OUT / "img")
 
     by_cluster = {}
     for a in articles:
@@ -168,6 +176,7 @@ def main():
             page_description=a["description"],
             canonical=canonical,
             og_type="article",
+            image=f'{base}/img/{a["slug"]}.png',
             rel_root="../",
             title=a["title"],
             body=a["body"],

@@ -1,5 +1,6 @@
 ---
 title: "Пробурили, а воды нет: что такое недобур и как защититься"
+cover_title: "Пробурили, а воды нет: недобур"
 slug: probureli-a-vody-net-nedobur
 cluster: skvazhina-osnovy
 query: "бурение без воды"

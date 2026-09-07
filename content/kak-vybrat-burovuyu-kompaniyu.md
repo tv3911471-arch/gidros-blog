@@ -1,5 +1,6 @@
 ---
 title: "Как выбрать буровую компанию и не попасть на сезонную бригаду"
+cover_title: "Как выбрать буровую компанию"
 slug: kak-vybrat-burovuyu-kompaniyu
 cluster: skvazhina-osnovy
 query: "как выбрать буровую компанию"

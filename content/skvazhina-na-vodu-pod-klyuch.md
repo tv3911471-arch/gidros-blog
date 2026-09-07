@@ -1,5 +1,6 @@
 ---
 title: "Скважина на воду под ключ: что входит в работы и от чего зависит результат"
+cover_title: "Скважина на воду под ключ"
 slug: skvazhina-na-vodu-pod-klyuch
 cluster: skvazhina-osnovy
 updated: 2026-09-07

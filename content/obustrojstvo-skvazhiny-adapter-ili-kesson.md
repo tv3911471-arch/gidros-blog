@@ -1,5 +1,6 @@
 ---
 title: "Обустройство скважины: адаптер или кессон — что выбрать"
+cover_title: "Адаптер или кессон для скважины"
 slug: obustrojstvo-skvazhiny-adapter-ili-kesson
 cluster: skvazhina-montazh
 updated: 2026-09-07

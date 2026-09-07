@@ -4,6 +4,7 @@
   <nav class="crumbs"><a href="{{ rel_root }}index.html">Блог</a> / {{ cluster_title }}</nav>
   <h1>{{ title }}</h1>
   {% if updated %}<p class="meta">Обновлено: {{ updated }}</p>{% endif %}
+  {% if image %}<img class="cover" src="{{ image }}" width="1100" height="619" alt="{{ title }}">{% endif %}
 
   <div class="body">
     {{ body|safe }}

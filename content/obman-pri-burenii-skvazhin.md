@@ -1,5 +1,6 @@
 ---
 title: "Обман при бурении скважин: 6 схем, на которых теряют деньги, и как их распознать"
+cover_title: "Обман при бурении скважин: 6 схем"
 slug: obman-pri-burenii-skvazhin
 cluster: skvazhina-osnovy
 query: "обман при бурении скважин"
