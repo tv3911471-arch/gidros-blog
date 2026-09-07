@@ -1,0 +1,109 @@
+﻿id,phase,cluster,slug,title,target_query,tier,gate,status
+001,1,skvazhina-osnovy,skvazhina-na-vodu-pod-klyuch,Скважина на воду под ключ: что входит в работы и от чего зависит результат,скважина на воду под ключ,СЧ,,план
+002,1,skvazhina-osnovy,kolodec-ili-skvazhina,Колодец или скважина: что выбрать для загородного дома,колодец или скважина,ВЧ,,план
+003,1,skvazhina-osnovy,kakoj-glubiny-byvaet-skvazhina-v-podmoskovje,Какой глубины бывает скважина на воду в Подмосковье,какой глубины скважина,СЧ,,план
+004,1,skvazhina-osnovy,skvazhina-na-pesok-ili-na-izvestnyak,"Скважина на песок или на известняк: разница, срок службы, цена",скважина на песок или известняк,СЧ,,план
+005,1,skvazhina-osnovy,artezianskaya-skvazhina-chto-eto,"Артезианская скважина: что это, плюсы и срок службы",артезианская скважина что это,СЧ,,план
+006,1,skvazhina-osnovy,abissinskaya-skvazhina-kogda-podhodit,"Абиссинская скважина (игла): когда подходит, а когда нет",абиссинская скважина,СЧ,,план
+007,1,skvazhina-osnovy,pasport-skvazhiny-chto-v-nem,Паспорт скважины: что в нём и зачем хранить,паспорт скважины на воду,НЧ,,план
+008,1,skvazhina-osnovy,skolko-sluzhit-skvazhina,Сколько служит скважина и от чего это зависит,сколько служит скважина,НЧ,,план
+009,1,skvazhina-osnovy,debit-skvazhiny-skolko-vody,Дебит скважины: сколько воды хватит для дома,дебит скважины,НЧ,,план
+010,1,skvazhina-osnovy,staticheskij-i-dinamicheskij-uroven-vody,Статический и динамический уровень воды простыми словами,динамический уровень воды в скважине,НЧ,,план
+011,1,skvazhina-osnovy,nuzhna-li-licenziya-na-skvazhinu,Нужна ли лицензия на скважину для частного дома,нужна ли лицензия на скважину,СЧ,,план
+012,1,skvazhina-osnovy,licenziya-na-skvazhinu-v-snt,Лицензия на скважину в СНТ: кто оформляет и что грозит без неё,лицензия на скважину в снт,СЧ,,план
+013,1,skvazhina-osnovy,shtraf-za-skvazhinu-bez-licenzii,Штраф за скважину без лицензии: суммы и кому реально грозит,штраф за скважину без лицензии,НЧ,,план
+014,1,skvazhina-osnovy,normy-rasstoyaniya-skvazhina-septik-dom-zabor,"Нормы: расстояние от скважины до септика, дома и забора",расстояние от скважины до септика,СЧ,,план
+015,1,skvazhina-osnovy,mozhno-li-burit-skvazhinu-zimoj,Можно ли бурить скважину зимой,можно ли бурить скважину зимой,НЧ,,план
+016,1,skvazhina-osnovy,skvazhina-vnutri-doma-plyusy-minusy,"Скважина в подвале дома: плюсы, минусы, ошибки",скважина в подвале дома,НЧ,,план
+017,1,skvazhina-osnovy,kak-vybrat-burovuyu-kompaniyu,Как выбрать буровую компанию и не попасть на обман,как выбрать буровую компанию,СЧ,,план
+018,1,skvazhina-osnovy,obman-pri-burenii-skvazhin,"Схемы обмана при бурении: недобур, пластик без обсадки, «долив воды»",обман при бурении скважин,СЧ,,план
+019,1,skvazhina-osnovy,probureli-a-vody-net-nedobur,"Пробурили, а воды нет: что такое недобур и как от него защититься",бурение без воды,НЧ,,план
+020,1,skvazhina-osnovy,razvedochnoe-burenie-kogda-nuzhno,Разведочное бурение: когда нужно и сколько стоит,разведочное бурение скважины,НЧ,,план
+021,1,skvazhina-osnovy,skvazhina-ne-daet-vodu-chto-delat,Скважина перестала давать воду: причины и что делать,скважина не даёт воду,СЧ,,план
+022,1,skvazhina-osnovy,upal-napor-vody-iz-skvazhiny,Упал напор воды из скважины: диагностика по шагам,упал напор воды из скважины,НЧ,,план
+023,1,skvazhina-osnovy,pesok-v-vode-iz-skvazhiny,Песок в воде из скважины: почему и как убрать,песок в воде из скважины,НЧ,,план
+024,1,skvazhina-osnovy,skvazhina-zaililas-vosstanovlenie,Скважина заилилась: признаки и восстановление,скважина заилилась,НЧ,,план
+025,1,skvazhina-montazh,obustrojstvo-skvazhiny-adapter-ili-kesson,Обустройство скважины: адаптер или кессон — что выбрать,обустройство скважины адаптер или кессон,СЧ,,план
+026,1,skvazhina-montazh,skvazhinnyj-adapter-ustrojstvo-montazh,"Скважинный адаптер: устройство, монтаж, срок службы",скважинный адаптер,СЧ,,план
+027,1,skvazhina-montazh,kesson-dlya-skvazhiny-plastik-ili-metall,Кессон для скважины: пластиковый или металлический,кессон для скважины пластиковый или металлический,СЧ,,план
+028,1,skvazhina-montazh,letnee-obustrojstvo-skvazhiny,Летнее обустройство скважины для дачи на тёплый сезон,летнее обустройство скважины,НЧ,,план
+029,1,skvazhina-montazh,vvod-vody-v-dom-ot-skvazhiny,Как завести воду в дом от скважины,завести воду в дом от скважины,СЧ,,план
+030,1,skvazhina-montazh,montazh-nasosa-v-skvazhinu,Монтаж скважинного насоса: как подбирают и на какую глубину ставят,установка насоса в скважину,СЧ,,план
+031,1,skvazhina-montazh,kak-podobrat-skvazhinnyj-nasos,Как подобрать насос для скважины по глубине и напору,как подобрать насос для скважины,НЧ,,план
+032,1,skvazhina-montazh,gidroakkumulyator-i-avtomatika,Гидроаккумулятор и автоматика: зачем нужны и как выбрать объём,установка гидроаккумулятора,НЧ,,план
+033,1,skvazhina-montazh,greyushchij-kabel-dlya-vvoda-vody,Греющий кабель для ввода воды: когда он обязателен,греющий кабель для ввода воды,НЧ,,план
+034,1,skvazhina-montazh,glubina-promerzaniya-grunta-podmoskovje,Глубина промерзания грунта в Подмосковье и ввод воды в дом,глубина промерзания грунта московская область,НЧ,,план
+035,1,skvazhina-montazh,obustrojstvo-skvazhiny-svoimi-rukami,Обустройство скважины своими руками с адаптером: риски и подводные камни,обустройство скважины своими руками,СЧ,,план
+036,1,skvazhina-montazh,kesson-pri-vysokom-ugv,"Кессон при высоких грунтовых водах: пучение, якорение, обратная засыпка",кессон при высоких грунтовых водах,НЧ,,план
+037,1,filtraciya,rzhavaya-voda-iz-skvazhiny-chto-delat,Ржавая вода из скважины: причины и что делать,ржавая вода из скважины,СЧ,,план
+038,1,filtraciya,zhelezo-v-vode-iz-skvazhiny,Железо в воде из скважины: чем опасно и как убрать,железо в воде из скважины,СЧ,,план
+039,1,filtraciya,zhestkaya-voda-priznaki-posledstviya,Жёсткая вода в доме: признаки и последствия для техники,жёсткая вода признаки,СЧ,,план
+040,1,filtraciya,zapah-serovodoroda-v-vode-iz-skvazhiny,Запах сероводорода из скважины: причины и решение,запах сероводорода из скважины,НЧ,,план
+041,1,filtraciya,mutnaya-voda-iz-skvazhiny-prichiny,Мутная вода из скважины: разбор причин,мутная вода из скважины,СЧ,,план
+042,1,filtraciya,analiz-vody-iz-skvazhiny,Анализ воды из скважины: какие показатели и где сдать,анализ воды из скважины,СЧ,,план
+043,1,filtraciya,kak-podobrat-filtr-po-analizu-vody,Как подобрать фильтр для воды по анализу,как подобрать фильтр для воды,НЧ,,план
+044,1,filtraciya,obezzhelezivanie-vody-kak-rabotaet,Обезжелезивание воды: как работает система,обезжелезивание воды из скважины,СЧ,,план
+045,1,filtraciya,umyagchenie-vody-ot-zhestkosti,Умягчение воды: фильтр против жёсткости,умягчение воды,СЧ,,план
+046,1,filtraciya,vodopodgotovka-dlya-zagorodnogo-doma,Водоподготовка для загородного дома: из чего состоит система,водоподготовка для загородного дома,СЧ,,план
+047,1,septik-osnovy,chto-takoe-septik-prostymi-slovami,Что такое септик простыми словами,что такое септик,СЧ,,план
+048,1,septik-osnovy,kak-rabotaet-septik-princip-ochistki,Как работает септик: принцип очистки,как работает септик,СЧ,,план
+049,1,septik-osnovy,septik-ili-vygrebnaya-yama,Септик или выгребная яма: что выгоднее,септик или выгребная яма,ВЧ,,план
+050,1,septik-osnovy,septik-ili-stanciya-bioochistki,Септик или станция биологической очистки: в чём разница,септик или станция биологической очистки,СЧ,,план
+051,1,septik-osnovy,septik-ili-betonnye-kolca,Септик или бетонные кольца: честное сравнение,септик или бетонные кольца,СЧ,,план
+052,1,septik-osnovy,nakopitelnyj-ili-pererabatyvayushchij-septik,Накопительный или перерабатывающий септик,накопительный или перерабатывающий септик,НЧ,,план
+053,1,septik-osnovy,energonezavisimyj-septik,Энергонезависимый септик: где оправдан и как выбрать,энергонезависимый септик,СЧ,,план
+054,1,septik-osnovy,stepen-ochistki-septika-kuda-sbrasyvat,Степень очистки септика: куда можно сбрасывать воду,степень очистки септика,НЧ,,план
+055,1,septik-osnovy,kuda-slivat-vodu-iz-septika,Куда девать очищенную воду из септика: варианты отвода,куда сливать воду из септика,СЧ,,план
+056,1,septik-osnovy,pole-filtracii-i-drenazhnyj-kolodec,Поле фильтрации и дренажный колодец: при глине и высоком УГВ,поле фильтрации для септика,СЧ,,план
+057,1,septik-osnovy,normy-ustanovki-septika,"Нормы установки септика: расстояния до дома, забора, скважины",нормы установки септика,СЧ,,план
+058,1,septik-osnovy,razreshenie-na-septik-i-pravila-snt,Нужно ли разрешение на септик и правила для СНТ,разрешение на септик,СЧ,,план
+059,1,septik-vybor,kak-vybrat-septik-dlya-dachi,Как выбрать септик для дачи,как выбрать септик для дачи,ВЧ,,план
+060,1,septik-vybor,kak-vybrat-septik-dlya-doma-pmzh,Как выбрать септик для дома с постоянным проживанием,септик для дома постоянного проживания,СЧ,,план
+061,1,septik-vybor,kakoj-septik-pri-vysokom-ugv,Какой септик при высоких грунтовых водах,какой септик при высоком уровне грунтовых вод,СЧ,,план
+062,1,septik-vybor,kakoj-septik-na-glinistom-grunte,Какой септик на глинистом грунте,септик на глине какой выбрать,НЧ,,план
+063,1,septik-vybor,septik-dlya-sezonnoj-dachi,Септик для сезонной дачи: что учесть при простоях,септик для сезонной дачи,НЧ,,план
+064,1,septik-vybor,kak-rasschitat-obem-septika,Как рассчитать объём септика по числу людей и залповому сбросу,объём септика как рассчитать,СЧ,,план
+065,1,septik-vybor,septik-na-3-4-5-6-chelovek,"Септик на 3, 4, 5 и 6 человек: как понять свой размер",септик на 4 человека,СЧ,,план
+066,1,septik-vybor,septik-malahit-obzor,"Септик «Малахит»: устройство, обслуживание, для каких участков",септик малахит отзывы,СЧ,,план
+067,1,septik-vybor,septik-topas-obzor,"Септик «Топас»: плюсы, минусы, стоимость обслуживания",септик топас обзор,СЧ,,план
+068,1,septik-vybor,septik-astra-yunilos-obzor,Септик «Астра» (Юнилос): обзор,септик астра обзор,СЧ,,план
+069,1,septik-vybor,septik-evrolos-obzor,Септик «Евролос»: обзор линейки,септик евролос обзор,СЧ,,план
+070,1,septik-vybor,sravnenie-topas-astra-evrolos,"Топас, Астра, Евролос: сравнение и что выбрать",сравнение топас астра евролос,СЧ,,план
+071,1,septik-vybor,oshibki-pri-vybore-septika,7 ошибок при выборе септика,ошибки при выборе септика,НЧ,,план
+072,1,septik-montazh,montazh-septika-pod-klyuch-etapy,Монтаж септика под ключ: этапы работ,монтаж септика этапы,СЧ,,план
+073,1,septik-montazh,ustanovka-septika-zimoj,Установка септика зимой: можно ли и что учесть,установка септика зимой,НЧ,,план
+074,1,septik-montazh,kotlovan-pod-septik,"Котлован под септик: размеры, копка вручную или экскаватором",котлован для септика,НЧ,,план
+075,1,septik-montazh,obratnaya-zasypka-septika,Обратная засыпка септика: почему нельзя обычным грунтом,обратная засыпка септика,НЧ,,план
+076,1,septik-montazh,yakorenie-septika,Якорение септика: когда нужно и как делается,якорение септика,НЧ,,план
+077,1,septik-montazh,podklyuchenie-septika-k-domu,"Подключение септика к дому: трубы, уклон, глубина",подключение септика к дому,СЧ,,план
+078,1,septik-montazh,ventilyaciya-septika-i-fanovyj-stoyak,Вентиляция септика и фановый стояк: зачем и как,вентиляция септика,НЧ,,план
+079,1,septik-montazh,septik-do-ili-posle-stroitelstva-doma,Ставить септик до или после стройки дома,септик до или после строительства,НЧ,,план
+080,1,septik-montazh,glubina-zalozheniya-septika,На какую глубину закапывают септик,глубина заложения септика,НЧ,,план
+081,1,septik-montazh,montazh-septika-svoimi-rukami-oshibki,Монтаж септика своими руками: где чаще всего ошибаются,монтаж септика своими руками,СЧ,,план
+082,1,septik-ekspluataciya,obsluzhivanie-septika,Обслуживание септика: что и как часто делать,обслуживание септика,СЧ,,план
+083,1,septik-ekspluataciya,otkachka-septika-kak-chasto,Как часто откачивать септик,откачка септика как часто,СЧ,,план
+084,1,septik-ekspluataciya,bakterii-dlya-septika-nuzhny-li,Бактерии для септика: нужны ли и какие,бактерии для септика,СЧ,,план
+085,1,septik-ekspluataciya,chto-nelzya-slivat-v-septik,Что нельзя сливать в септик,что нельзя сливать в септик,СЧ,,план
+086,1,septik-ekspluataciya,septik-i-bytovaya-himiya,"Септик и бытовая химия: что можно, а что убивает бактерии",септик и бытовая химия,НЧ,,план
+087,1,septik-ekspluataciya,konservaciya-septika-na-zimu,Консервация септика на зиму: пошагово,консервация септика на зиму,СЧ,,план
+088,1,septik-ekspluataciya,zapah-ot-septika-prichiny,Запах от септика: причины и как убрать,запах от септика,СЧ,,план
+089,1,septik-ekspluataciya,iz-septika-ne-uhodit-voda,Из септика не уходит вода: причины и что делать,септик не уходит вода,СЧ,,план
+090,1,septik-ekspluataciya,septik-perepolnilsya-chto-delat,Септик переполнился: что делать,септик переполнился,НЧ,,план
+091,1,septik-ekspluataciya,septik-vsplyl-iz-zemli,Септик всплыл из земли: почему и как исправить,септик всплыл,НЧ,,план
+092,1,septik-ekspluataciya,septik-zamerz-zimoj,Септик замёрз зимой: как разморозить и не допустить,септик замёрз зимой,НЧ,,план
+093,1,septik-ekspluataciya,pena-v-septike,Пена в септике: причина и решение,пена в септике,НЧ,,план
+094,1,septik-ekspluataciya,moshki-v-septike,Мошки в септике: откуда берутся и как избавиться,мошки в септике,НЧ,,план
+095,1,septik-ekspluataciya,septik-shumit-ili-vibriruet,Септик шумит или вибрирует: проверяем компрессор,септик шумит,НЧ,,план
+096,1,septik-ekspluataciya,zapusk-septika-posle-prostoya,Как запустить септик после долгого простоя,септик после простоя,НЧ,,план
+097,1,skvazhina-osnovy,burenie-skvazhin-na-vodu-v-podmoskovje,Бурение скважин на воду в Подмосковье: как всё устроено,бурение скважин на воду,ВЧ,,план
+098,1,skvazhina-montazh,obustrojstvo-skvazhin-pod-klyuch,Обустройство скважин под ключ: составы и варианты,обустройство скважины под ключ,СЧ,,план
+099,1,septik-montazh,septik-pod-klyuch-chto-vhodit,Септик под ключ: что входит в работы,септик под ключ,ВЧ,,план
+100,1,skvazhina-osnovy,burenie-skvazhin-mgbu,Бурение скважин малогабаритной установкой (МГБУ): когда это единственный вариант,бурение скважины малогабаритной установкой,СЧ,,план
+101,1,skvazhina-osnovy,vyezd-inzhenera-na-uchastok,Выезд инженера на участок: что он определяет до бурения,выезд инженера на участок,НЧ,,план
+102,2,skvazhina-cena,skolko-stoit-proburit-skvazhinu,Сколько стоит пробурить скважину в Подмосковье,сколько стоит пробурить скважину,ВЧ,price,план
+103,2,skvazhina-cena,skolko-stoit-skvazhina-30-40-50-metrov,"Сколько стоит скважина 30, 40, 50 метров под ключ",сколько стоит скважина 50 метров,СЧ,price,план
+104,2,skvazhina-cena,cena-obustrojstva-skvazhiny,"Сколько стоит обустроить скважину: адаптер, кессон, летний",стоимость обустройства скважины,СЧ,price,план
+105,2,septik-cena,skolko-stoit-septik-pod-klyuch,Сколько стоит септик под ключ,сколько стоит септик под ключ,СЧ,price,план
+106,2,skvazhina-geo,burenie-skvazhin-GOROD,Бурение скважин в [город] под ключ — шаблон гео-страницы,бурение скважин [город],СЧ,geo,план
+107,2,septik-geo,septik-pod-klyuch-GOROD,Септик под ключ в [город] — шаблон гео-страницы,септик под ключ [город],СЧ,geo,план
+108,2,skvazhina-osnovy,reanimaciya-skvazhiny,Реанимация скважины: методы и когда это оправдано,реанимация скважины,НЧ,decision,план
