@@ -11,8 +11,10 @@
 
   <div class="cta">
     <p class="cta-title">Нужен точный расчёт по вашему участку?</p>
-    <p>{{ site.offer_line }}</p>
+    <p>{{ site.offer_line }} На выезде инженер {{ site.engineer_name }} осмотрит участок, оценит грунт и назовёт вилку по глубине и цене — устно и в договоре.</p>
     <p><a class="btn" href="{{ site.phone_href }}">Позвонить: {{ site.phone_display }}</a></p>
+    <p class="cta-site">Цены, состав работ и примеры объектов — на основном сайте:
+      <a href="{{ utm_link }}" rel="nofollow">{{ site.main_url_label }}</a></p>
   </div>
 
   {% if related %}

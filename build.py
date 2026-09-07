@@ -27,6 +27,28 @@ ASSETS = ROOT / "assets"
 RELATED_MAX = 6
 DESC_LEN = 155
 
+_TRANSLIT = {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e",
+    "ж": "zh", "з": "z", "и": "i", "й": "j", "к": "k", "л": "l", "м": "m",
+    "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "h", "ц": "c", "ч": "ch", "ш": "sh", "щ": "sch",
+    "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu", "я": "ya",
+}
+
+
+def slugify(text):
+    """Кириллица -> латинский слаг. Никакой кириллицы на выходе."""
+    out = []
+    for ch in (text or "").lower().strip():
+        if ch in _TRANSLIT:
+            out.append(_TRANSLIT[ch])
+        elif ch.isalnum() and ch.isascii():
+            out.append(ch)
+        elif ch in " -_/":
+            out.append("-")
+    s = re.sub(r"-+", "-", "".join(out)).strip("-")
+    return s
+
 
 def load_site():
     return yaml.safe_load((ROOT / "data" / "site.yml").read_text(encoding="utf-8"))
@@ -61,6 +83,9 @@ def make_description(meta, html):
 def main():
     site = load_site()
     base = site["base_url"].rstrip("/")
+    # префикс пути деплоя: "/gidros-blog" на GitHub Pages, "" на своём домене в корне
+    m = re.match(r"https?://[^/]+(/.*)?$", base)
+    prefix = (m.group(1) or "").rstrip("/") if m else ""
     cluster_titles = site.get("clusters", {}) or {}
 
     md = markdown.Markdown(extensions=["extra", "sane_lists", "toc"], output_format="html5")
@@ -81,12 +106,17 @@ def main():
         slug = str(meta.get("slug") or path.stem).strip().strip("/")
         md.reset()
         body_html = md.convert(body_md)
+        # внутренние ссылки в теле пишем от корня (/slug/), тут добавляем префикс деплоя
+        if prefix:
+            body_html = body_html.replace('href="/', f'href="{prefix}/')
+            body_html = body_html.replace('src="/', f'src="{prefix}/')
         articles.append({
             "slug": slug,
             "title": meta["title"].strip(),
             "cluster": (meta.get("cluster") or "prochee").strip(),
             "updated": str(meta.get("updated") or "").strip(),
             "keywords": meta.get("keywords") or [],
+            "query": str(meta.get("query") or meta["title"]).strip(),
             "description": make_description(meta, body_html),
             "body": body_html,
             "source": path.name,
@@ -115,6 +145,11 @@ def main():
         siblings = [s for s in by_cluster.get(a["cluster"], []) if s["slug"] != a["slug"]]
         related = siblings[:RELATED_MAX]
         canonical = f"{base}/{a['slug']}/"
+        utm_link = (
+            f'{site["main_url"]}/?utm_source=blog&utm_medium=article'
+            f'&utm_campaign={a["cluster"]}&utm_content={a["slug"]}'
+            f'&utm_term={slugify(a["query"])}'
+        )
         schema = {
             "@context": "https://schema.org",
             "@type": "Article",
@@ -139,6 +174,7 @@ def main():
             updated=a["updated"],
             cluster_title=cluster_titles.get(a["cluster"], a["cluster"]),
             related=related,
+            utm_link=utm_link,
             schema=json.dumps(schema, ensure_ascii=False),
         )
         d = OUT / a["slug"]

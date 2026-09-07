@@ -40,6 +40,7 @@ img{max-width:100%; height:auto}
 
 .cta{background:var(--cta-bg); border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin:28px 0}
 .cta-title{font-weight:700; margin-bottom:.3em}
+.cta-site{font-size:14px; margin-top:.7em; margin-bottom:0}
 .btn{display:inline-block; background:var(--accent); color:#fff; padding:11px 18px; border-radius:8px; font-weight:600}
 .btn:hover{background:var(--accent-dark); text-decoration:none}
 

@@ -9,6 +9,10 @@ lang: "ru"
 phone_display: "+7 968 870-82-25"
 phone_href: "tel:+79688708225"
 
+# Основной сайт Гидро-С — цель ссылок из статей (с UTM-метками)
+main_url: "https://burenie-skvazhin-voda.ru"
+main_url_label: "burenie-skvazhin-voda.ru"
+
 engineer_name: "Дмитрий"
 
 # Зона работ
