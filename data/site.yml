@@ -6,10 +6,8 @@ domain: "tv3911471-arch.github.io/gidros-blog"
 base_url: "https://tv3911471-arch.github.io/gidros-blog"
 lang: "ru"
 
-# ВНИМАНИЕ: телефон и почту подставить реальные (сейчас заглушки).
-phone_display: "8 (800) 000-00-00"
-phone_href: "tel:+78000000000"
-email: "info@example.ru"
+phone_display: "+7 968 870-82-25"
+phone_href: "tel:+79688708225"
 
 engineer_name: "Дмитрий"
 
