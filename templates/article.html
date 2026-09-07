@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="article">
+  <nav class="crumbs"><a href="{{ rel_root }}index.html">Блог</a> / {{ cluster_title }}</nav>
+  <h1>{{ title }}</h1>
+  {% if updated %}<p class="meta">Обновлено: {{ updated }}</p>{% endif %}
+
+  <div class="body">
+    {{ body|safe }}
+  </div>
+
+  <div class="cta">
+    <p class="cta-title">Нужен точный расчёт по вашему участку?</p>
+    <p>{{ site.offer_line }}</p>
+    <p><a class="btn" href="{{ site.phone_href }}">Позвонить: {{ site.phone_display }}</a></p>
+  </div>
+
+  {% if related %}
+  <section class="related">
+    <h2>Ещё по теме</h2>
+    <ul>
+      {% for r in related %}<li><a href="{{ rel_root }}{{ r.slug }}/">{{ r.title }}</a></li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

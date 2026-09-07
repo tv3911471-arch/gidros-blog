@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:type" content="{{ og_type|default('website') }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:locale" content="ru_RU">
+{% if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+<link rel="stylesheet" href="{{ rel_root }}assets/style.css">
+{% if schema %}<script type="application/ld+json">{{ schema|safe }}</script>{% endif %}
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ rel_root }}index.html">{{ site.name }}</a>
+    <span class="brand-tag">{{ site.tagline }}</span>
+    <a class="header-phone" href="{{ site.phone_href }}">{{ site.phone_display }}</a>
+  </div>
+</header>
+
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>{{ site.name }}</strong> — {{ site.geo_primary }}.</p>
+    <p>{{ site.geo_note }}</p>
+    <p>{{ site.offer_line }}</p>
+    <p class="muted">Инженер — {{ site.engineer_name }}. Телефон: <a href="{{ site.phone_href }}">{{ site.phone_display }}</a></p>
+  </div>
+</footer>
+</body>
+</html>

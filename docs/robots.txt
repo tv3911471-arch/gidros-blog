@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tv3911471-arch.github.io/gidros-blog/sitemap.xml

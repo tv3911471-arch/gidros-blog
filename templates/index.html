@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="home-intro">
+  <h1>{{ site.name }} — блог про скважины и септики</h1>
+  <p>{{ site.tagline }}. {{ site.geo_primary }}.</p>
+  <p>{{ site.offer_line }}</p>
+</section>
+
+{% for c in clusters %}
+{% if c.articles %}
+<section class="cluster">
+  <h2>{{ c.title }}</h2>
+  <ul>
+    {% for a in c.articles %}<li><a href="{{ a.slug }}/">{{ a.title }}</a></li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}
+
+{% if total == 0 %}
+<p>Статьи скоро появятся.</p>
+{% endif %}
+{% endblock %}
